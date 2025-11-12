@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { GoogleGenAI, Type } from "@google/genai";
 
@@ -22,9 +21,8 @@ const locationSchema = {
     required: ['city', 'state', 'taxRate'],
 };
 
-// IMPORTANT: For production, this key must be handled on a secure backend. See SECURITY.md
-// FIX: Switched to process.env.API_KEY to align with coding guidelines and resolve TypeScript errors with import.meta.env.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+// Fix: Switched from import.meta.env to process.env.API_KEY to align with guidelines and fix TypeScript error.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const ZipcodeSearch: React.FC<ZipcodeSearchProps> = ({ onSelect }) => {
     const [zip, setZip] = useState('');

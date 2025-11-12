@@ -3,7 +3,7 @@ import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, Legend } from 'recha
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { LoanSummary, PaymentFrequency } from '../types';
-import { DownloadIcon } from '../constants/icons';
+import { DownloadIcon } from '../constants';
 
 interface SummaryProps {
   summary: LoanSummary | null;

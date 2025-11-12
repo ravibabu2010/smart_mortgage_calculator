@@ -1,5 +1,5 @@
 import React from 'react';
-import { HouseIcon } from '../constants/icons';
+import { HouseIcon } from '../constants';
 
 const Header: React.FC = () => {
   const navItems = [

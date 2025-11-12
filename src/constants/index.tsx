@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const HouseIcon = (props: React.SVGProps<SVGSVGElement>) => (

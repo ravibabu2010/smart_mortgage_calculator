@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { AmortizationPeriod } from '../types';

@@ -1,4 +1,3 @@
-
 import { useMemo } from 'react';
 import { CalculatorInput, AmortizationPeriod, LoanSummary, PaymentFrequency, Fee, ExtraPaymentType } from '../types';
 

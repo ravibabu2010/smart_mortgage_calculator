@@ -1,6 +1,6 @@
 import React from 'react';
 import { AmortizationPeriod } from '../types';
-import { DownloadIcon } from '../constants/icons';
+import { DownloadIcon } from '../constants';
 
 interface AmortizationTableProps {
   schedule: AmortizationPeriod[];
@@ -13,7 +13,6 @@ const AmortizationTable: React.FC<AmortizationTableProps> = ({ schedule }) => {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    // FIX: Added timeZone 'UTC' to prevent date shifting due to local timezone conversion.
     return date.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'short',

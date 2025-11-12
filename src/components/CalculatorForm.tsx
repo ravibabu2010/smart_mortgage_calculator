@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { CalculatorInput, PaymentFrequency, InputFee, LoanType, ExtraPaymentType } from '../types';
 import ZipcodeSearch, { LocationData } from './ZipcodeSearch';
