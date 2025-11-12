@@ -1,0 +1,5 @@
+{
+  "name": "Smart Mortgage Calculator",
+  "description": "A comprehensive mortgage calculator with bi-weekly/monthly payments, extra principal options, and detailed amortization schedules with charts. It helps users analyze different payment scenarios to understand principal and interest costs over the loan's lifetime.",
+  "requestFramePermissions": []
+}
